@@ -60,15 +60,15 @@ S1.title = 'Month Device Comparison'
 S1['B1'].value = 'Desktop Sessions'
 S1['C1'].value = 'Desktop Transactions'
 S1['D1'].value = 'Desktop QTY'
-S1['E1'].value = 'Desktop ERC'
+S1['E1'].value = 'Desktop ECR'
 S1['F1'].value = 'Mobile Sessions'
 S1['G1'].value = 'Mobile Transactions'
 S1['H1'].value = 'Mobile QTY'
-S1['I1'].value = 'Mobile ERC'
+S1['I1'].value = 'Mobile ECR'
 S1['J1'].value = 'Tablet Sessions'
 S1['K1'].value = 'Tablet Transactions'
 S1['L1'].value = 'Tablet QTY'
-S1['M1'].value = 'Tablet ERC'
+S1['M1'].value = 'Tablet ECR'
 
 #loops through the dictionary to add the values to the spreadsheet
 x = 2
@@ -125,7 +125,7 @@ S2.title = 'Month over Month Comparison'
 S2['B1'].value = 'Sessions'
 S2['C1'].value = 'Transactions'
 S2['D1'].value = 'QTY'
-S2['E1'].value = 'ERC'
+S2['E1'].value = 'ECR'
 S2['F1'].value = 'Adds to Cart'
 
 #loops through the lists and adds them to the worksheet
